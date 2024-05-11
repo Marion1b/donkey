@@ -1,0 +1,10 @@
+.sun-container{
+    position: absolute;
+    left: 25%;
+    z-index: -1;
+    width: 50%;
+}
+
+.sun-container img{
+    width: 100%;
+}

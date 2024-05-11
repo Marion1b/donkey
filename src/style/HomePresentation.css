@@ -1,0 +1,13 @@
+.home-presentation{
+    color:var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.home-presentation h1{
+    font-size: 3.2rem;
+    margin: 5rem 0 10rem 0;
+}

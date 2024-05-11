@@ -1,0 +1,38 @@
+@import url('Sun.css');
+@import url('Cards.css');
+
+.slider{
+    width: 75%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-bg-color);
+}
+
+.slider-arrow-left{
+    transform: rotate(0.5turn);
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.slider-arrow-right{
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.slider-arrow-left:hover{
+    transform: rotate(0.5turn) translateX(1rem);
+}
+
+.slider-arrow-left:active{
+    transform: rotate(0.5turn) translateX(1.5rem);
+}
+
+.slider-arrow-right:hover{
+    transform: translateX(1rem);
+}
+
+.slider-arrow-right:active{
+    transform: translateX(1.5rem);
+}
