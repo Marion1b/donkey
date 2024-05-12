@@ -4,10 +4,6 @@
   --secondary-color:#a66bff;
 }
 
-@import url('Header.css');
-@import url('HomePresentation.css');
-@import url('Slider.css');
-
 *{
   box-sizing: border-box;
 }
@@ -23,3 +19,9 @@ body {
   font-size: 1.6rem;
   font-family: "Roboto Serif", serif;
 }
+
+@import url('Header.css');
+@import url('HomePresentation.css');
+@import url('Slider.css');
+@import url('Lines.css');
+@import url('CTABuyTickets.css');

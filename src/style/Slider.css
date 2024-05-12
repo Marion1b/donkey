@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--main-bg-color);
+    margin-bottom: 1rem;
 }
 
 .slider-arrow-left{
