@@ -1,9 +1,10 @@
 import {artistsList} from '../datas/artistsList.js'
 import sliderArrow from '../assets/objects/arrow-slider.svg'
-import Sun from './Sun.js'
+import Sun from './Sun.jsx'
 import '../style/Slider.css'
 import React, { useState } from 'react';
-import Cards from './Cards.js'
+import Cards from './Cards.jsx'
+import circle from '../assets/objects/circle.png'
 
 const Slider = () => {
     const [days, setDays] = useState([
@@ -27,6 +28,9 @@ const Slider = () => {
         setSunX(sunXDefine);
         setSunY(sunYDefine);
     }
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
 
     const sunXYStyle = {
         transform : `translate(${sunX}px, ${sunY}px)`
@@ -41,7 +45,10 @@ const Slider = () => {
             <div className='slider-arrow-right' style={{order:4}}>
                 <img src={sliderArrow} alt='slider arrow right' onClick={next}/>
             </div>
-            <Sun slider={Slider} XYStyle={sunXYStyle}/>
+            <Sun slider={Slider}/>
+            <img src={circle} alt="" className='slider-circle-big slider-circle' style = {sunXYStyle}/>
+            <img src={circle} alt="" className='slider-circle-medium slider-circle' style = {sunXYStyle}/>
+            <img src={circle} alt="" className='slider-circle-little slider-circle' style = {sunXYStyle}/>
         </article>
     )
 }

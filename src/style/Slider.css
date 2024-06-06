@@ -2,10 +2,10 @@
 @import url('Cards.css');
 
 .slider{
-    width: 75%;
-    max-width: 1200px;
+    width: 100vw;
+    max-width: 2000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: var(--main-bg-color);
     margin-bottom: 1rem;
@@ -36,4 +36,27 @@
 
 .slider-arrow-right:active{
     transform: translateX(1.5rem);
+}
+
+.slider-circle{
+    position: absolute;
+    z-index: -5;
+}
+
+.slider-circle-big{
+    top: 30%;
+    left: 12%;
+    width: 150px;
+}
+
+.slider-circle-medium{
+    top:90%;
+    right: 4%;
+    width: 100px;
+}
+
+.slider-circle-little{
+    top: 45%;
+    right: 15%;
+    width: 50px;
 }

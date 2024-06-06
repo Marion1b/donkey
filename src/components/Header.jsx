@@ -5,27 +5,32 @@ const navContent = [
     {
         title:'Accueil',
         id:0,
-        link:'#'
+        link:'#',
+        active:false
     },{
         title:'Programmation',
         id:1,
-        link:'#'
+        link:'#',
+        active:false
     },
     {
         title:'Logo',
         id:2,
         link:'#',
-        src:logo
+        src:logo,
+        active:false
     },
     {
         title:'Infos pratiques',
         id:3,
-        link:'#'
+        link:'#',
+        active:false
     },
     {
         title:'Billeterie',
         id:4,
-        link:'#'
+        link:'#',
+        active:false
     }
 ]
 

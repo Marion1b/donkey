@@ -1,7 +1,7 @@
 .document-header{
     color:var(--secondary-color);
     font-weight: bold;
-    font-size:2.4rem;
+    font-size:2rem;
     padding: 2rem;
 }
 
@@ -15,5 +15,5 @@
 }
 
 .header-ul img{
-    max-width: 23rem;
+    max-width: 20rem;
 }

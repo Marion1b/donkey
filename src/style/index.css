@@ -18,6 +18,13 @@ body {
   background: var(--main-bg-color);
   font-size: 1.6rem;
   font-family: "Roboto Serif", serif;
+  width: 75%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.bold{
+  font-weight: bold
 }
 
 @import url('Header.css');

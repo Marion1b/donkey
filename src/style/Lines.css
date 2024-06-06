@@ -1,8 +1,10 @@
 .lines{
     margin-top:10rem;
     margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
 }
 
 .lines img{
-    width: 100%;
+    width: 100vw;
 }

@@ -3,7 +3,7 @@ import '../style/Sun.css'
 
 const Sun =(props)=>{
     return(
-        <div className='sun-container' style={props.XYStyle}>
+        <div className='sun-container'>
             <img src={sun} alt='sun object'/>
         </div>
     )

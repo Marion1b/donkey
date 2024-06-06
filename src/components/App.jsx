@@ -2,6 +2,7 @@ import CTABuyTickets from './CTABuyTickets';
 import Header from './Header'
 import HomePresentation from './HomePresentation'
 import Lines from './Lines'
+import InfosCards from './InfosCards'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Lines />
         <CTABuyTickets />
         <Lines />
+        <InfosCards />
       </main>
     </>
   );

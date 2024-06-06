@@ -7,17 +7,6 @@
     border-radius: 2rem;
 }
 
-.card-1{
-    background-color: var(--primary-color);
-    width: 30rem;
-    height: 50rem;
-}
-
-.card h2{
-    font-size: 2.8rem;
-    margin-bottom: 5rem;
-}
-
 .slide-artists-list{
     height: 50%;
     list-style: none;
@@ -26,4 +15,28 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.slide-artist-name{
+    padding: .5rem 0;
+    font-size: 1.6rem;
+}
+
+.card-1{
+    background-color: var(--primary-color);
+    width: 30rem;
+    height: 50rem;
+}
+
+.card-1 .slide-artist-name{
+    font-size: 2rem;
+}
+
+.card h2{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.card-1 h2{
+    font-size: 2.4rem;
 }
