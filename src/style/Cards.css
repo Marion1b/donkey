@@ -1,3 +1,56 @@
+@keyframes card0Animation{
+    from{
+        transform: translateX(0);
+        color: transparent;
+    }50%{
+        transform: translateX(100%);
+    }
+    80%{
+        transform: translateX(0);
+    }
+    90%{
+        transform: translateX(10%);
+    }
+    to{
+        transform: translateX(0);
+        color: var(--main-bg-color);
+    }
+}
+
+@keyframes card1Animation{
+    from{
+        transform: translateY(0);
+        color: transparent;
+    }50%{
+        transform: translateY(-10%);
+    }80%{
+        transform: translateY(0);
+    }90%{
+        transform: translateY(-2%);
+    }
+    to{
+        transform: translateY(0);
+        color: var(--main-bg-color);
+    }
+}
+
+@keyframes card2Animation{
+    from{
+        transform: translateX(0);
+        color: transparent;
+    }50%{
+        transform: translateX(-100%);
+    }80%{
+        transform: translateX(0);
+    }90%{
+        transform: translateX(-10%);
+    }
+    to{
+        transform: translateX(0);
+        color: var(--main-bg-color);
+    }
+}
+
 .card{
     height: 42rem;
     width: 26rem;
@@ -26,6 +79,9 @@
     background-color: var(--primary-color);
     width: 30rem;
     height: 50rem;
+    z-index: 5;
+    animation: 1s ease-out card1Animation;
+    animation-iteration-count: 1;
 }
 
 .card-1 .slide-artist-name{
@@ -39,4 +95,14 @@
 
 .card-1 h2{
     font-size: 2.4rem;
+}
+
+.card-0{
+    animation : 1s ease-out card0Animation;
+    animation-iteration-count: 1;
+}
+
+.card-2{
+    animation: 1s ease-out card2Animation;
+    animation-iteration-count: 1;
 }

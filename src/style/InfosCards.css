@@ -31,6 +31,8 @@
     border-radius: 2rem;
     width: 24rem;
     height: 24rem;
+    border: 3px solid var(--main-bg-color);
+    box-shadow: 8px 8px 4px rgba(102, 0, 255, 0.7);
 }
 
 .infos-cards-social{
